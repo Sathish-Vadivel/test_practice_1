@@ -1,5 +1,4 @@
 import yaml
-
 with open("/dbfs/FileStore/Sathish/Inputs/alert_config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
